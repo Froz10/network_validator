@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: network_validator_production
-  username: network_validator
+  username: frost
   password: <%= ENV['NETWORK_VALIDATOR_DATABASE_PASSWORD'] %>
